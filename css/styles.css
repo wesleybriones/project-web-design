@@ -1,0 +1,111 @@
+/* Header */
+body header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul a:hover{
+    border-bottom: 2px solid #E54B2A;
+    padding-bottom: 5px;
+}
+
+.contenido{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffc4a8;
+}
+
+/* Primera franja del diseño */
+.section2{
+    background-color: #ffc4a8;  
+}
+.contenedor-relative{
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-relative h1{
+    font-weight: bold;
+    font-size: 150;
+    margin-bottom: 60px;
+}
+
+.contenedor-relative section img{
+    width: 730px;
+    height: 460px;
+    position: absolute;
+    top: -40;
+    left: 510;
+}
+
+.contenedor-circles{
+    position: absolute;
+    top: 350;
+    right: 0;
+    padding: 10px;
+}
+
+.contenedor-circles div{
+    display: block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle{
+    background-color: #fd6f6b;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 3px;
+}
+
+
+/* Segunda franja del diseño */
+.section3{
+    background-image: url('../assets/ilia-zolas-4W1fURf1SB8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 330px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 h1{
+    text-align: center;
+    font-weight: bold;
+    padding: 3%;
+}
+
+.section3 h3{
+    text-align: center;
+    font-size: 15px;
+}
+
+.section3 button {
+    width: 15%;
+    justify-items: center;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 2%;
+    border: none;
+    border-radius: 50px; 
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+/* Tercera franja del diseño */
