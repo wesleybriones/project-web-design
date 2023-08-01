@@ -12,7 +12,7 @@ body header{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-.menu ul a:hover{
+.menu ul a:hover, .active{
     border-bottom: 2px solid #E54B2A;
     padding-bottom: 5px;
 }

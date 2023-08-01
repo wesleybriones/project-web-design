@@ -1,0 +1,96 @@
+/* Header */
+body header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu ul a{
+    color: black;
+    margin-right: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.menu ul a:hover, .active{
+    border-bottom: 2px solid #E54B2A;
+    padding-bottom: 5px;
+}
+
+.contenido{
+    width: 100%;
+    padding: 20px;
+    background-color: #ffc4a8;
+}
+
+/* Primera seccion */
+.section1{
+    background-color: #ffc4a8;
+}
+
+.contenedor-relative{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.contenedor-relative h1{
+    font-weight: bold;
+    font-size: 150;
+    margin-bottom: 80px;
+}
+
+.contenedor-relative img{
+    position: absolute;
+    width: 65%;
+    top: 150;
+    left: 170;
+}
+
+/* Segunda seccion */
+.section2{
+    display: flex;
+    position: relative;
+}
+
+.principal{
+    width: 45%;
+    background-color: rgba(119,195,195,255);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.principal h1{
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 25%;
+    padding-bottom: 6%;
+    padding-left: 25%;
+    
+}
+
+.principal h3{
+    font-size: 13px;
+    padding-left: 25%;
+}
+
+.secondary{
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+}
+
+.first-image-secondary{
+    background-image: url('../assets/ilia-zolas-4W1fURf1SB8-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+}
+
+.second-image-secondary{
+    background-image: url('../assets/dmytro-davydenko-aDSTQ4qugJI-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 375px;
+}
