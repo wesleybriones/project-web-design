@@ -22,3 +22,104 @@ body header{
     padding: 20px;
     background-color: #ffc4a8;
 }
+
+/* Primera seccion */
+.section1{
+    background-color: #ffc4a8;
+}
+
+.contenedor-relative{
+    display: flex;
+    position: relative;
+    justify-content: center;
+}
+
+.contenedor-relative h1{
+    font-weight: bold;
+    font-size: 130;
+    margin: 150px 0;
+}
+
+.contenedor-relative img{
+    position: absolute;
+    width: 200px;
+}
+/* chocolate */
+.h-uno{
+    top: 100;
+    left: 260;
+}
+/* fresa-rosada */
+.h-tres{
+    top: 390;
+    left: 310;
+}
+/* menta-chispas de chocolate */
+.h-cuatro{
+    top: 300;
+    left: 810;
+}
+/* vainilla-amarillo */
+.h-cinco{
+    top: 420;
+    left: 570;
+}
+
+.h-seis{
+    top: 100;
+    left: 750;
+}
+
+/* Segunda seccion */
+.section2{
+    background-color: rgba(119,195,195,255);
+}
+
+.section2 h1{
+    padding: 7%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.contenedor-section2{
+    display: flex;
+    width: 100vw;
+    width: 25%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    border-radius: 50%;
+}
+
+.contenedor-tarjetas{
+    padding: 0 20%;
+}
+
+.c-blanco{
+    height: 300px;
+    width: 237px;
+    position: relative;
+    flex-direction: column;
+    border-radius: 10%;
+    background-color: white;
+    margin-bottom: 30%;
+}
+
+.c-rosado{
+    width: 237px;
+    position: absolute;
+    top: 170;
+    left: 0;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    font-size: 10px;
+    text-align: center;
+    border-radius: 10%;
+    background-color: #ffc4a8;
+}
+
+.c-blanco img{
+    position: absolute;
+    width: 90%;
+    top: -40;
+    left: 8;
+}
